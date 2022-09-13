@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700&family=Titillium:wght@100;200;300;400;500;600;700&family=Carrois+Gothic+SC:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+  --primary_color: #FAC306;
+  --sec_color: #e9e9ed;
+}
+
+/* GENERAL */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  /* font-family: 'Carrois Gothic SC', sans-serif; */
+  /* font-family: 'Rajdhani', sans-serif; */
+  /* font-family: 'Space Grotesk', sans-serif; */
+  font-family: 'Montserrat Alternates', cursive;
+  height: 100%;
+  max-width: 1160px;
+  padding: auto;
+  margin: auto;
+  background-color: aquamarine;
+}
+
+ul li {
+  list-style-type: none;
+  margin: .7em;
+}
+
+ol li{
+  margin-left: 2em;
+  padding: 0.5em;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 0.7px;
+  color: black;
+}
+
+.btn{
+    font: inherit;
+    font-size: 1.5em;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    background: black;
+    padding: 0.5em;
+    border: none;
+}
+
+.btn:hover{
+    text-decoration: underline;
+}
+
+.container {
+  margin: auto 0.9em;
+  padding: 0.2em;
+}
+
+.border-bottom{
+    border: 1px rgba(0, 0, 0, 0.836) solid;
+    width: 45%;
+    margin-bottom: 0.9em;
+    margin-top: 0.2em;
+}
+
+/* HEADER */
+
+.header-section{
+    background-color: rgba(255, 255, 255, 0.95);
+    position: sticky;
+    width: 100%;
+    box-shadow: 0px 2px 20px 2px rgb(148, 147, 147);
+    top: 0;
+    z-index: 100;
+    height: auto;
+    margin-top: 0;
+    /* margin-bottom: 1.2em; */
+}
